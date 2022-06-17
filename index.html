@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/x-icon" href="favicon-32x32 (1).png">
+  <title>responsive page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="elements">
+    <div class="text-element">
+      <h3>Learn to code by</br> watching others</h3>
+      <p>See how experienced developers solve problems in real time.</br>
+      Watching scripted tutorials is great, but understanding how</br> developers think is invaluable.</p>
+    </div>
+    <div class="form-element">
+      <button class="form-btn"><p><b>Try it free 7days</b> then $20/mo.
+        thereafter</p>
+      </button>
+    <div class="form-container" id="forPad">
+      <form class="form-pad" id="myForm">
+      <div class="icon-i" id="fError"><img src="/icon-error.svg"></div>
+         <input type="text" id="firstName" class="fNme" name=fName placeholder="First Name">
+         <span id="nameMessagei" class="message-1">First Name cannot be empty</span>
+        <div class="icon-ii" id="lError"><img src="/icon-error.svg"></div>
+         <input type="text" name="lName" id="lastName" placeholder="Last Name">
+        <span id="nameMessageii" class="message-2">Last Name cannot be empty</span>
+        <div class="icon-iii" id="eError"><img src="/icon-error.svg"></div>
+         <input type="email" class="mail" name="email" id="email" placeholder="Email Address">
+        <span id="nameMessageiii" class="message-3">Looks like this is not an email </span>
+        <div class="icon-iv" id="pError"><img src="/icon-error.svg"></div>
+         <input type="password" name="password" id="password" placeholder="Password">
+        <span id="nameMessageiv" class="message-4">Password cannot be empty</span>
+        
+         <input type="submit" id="submit" value="CLAIM YOUR FREE TRIAL" onclick="submitbutton()">
+       <div class="link"><a href=#>Terms and services</a></div>
+    </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
